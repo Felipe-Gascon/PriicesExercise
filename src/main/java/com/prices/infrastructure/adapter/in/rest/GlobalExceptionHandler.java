@@ -15,7 +15,7 @@ import java.time.LocalDateTime;
 
 /**
  * Global exception handler for REST API
- * Provides consistent error responses
+ *
  */
 @RestControllerAdvice
 @Slf4j

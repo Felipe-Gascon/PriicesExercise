@@ -15,8 +15,7 @@ import java.util.List;
 
 /**
  * Application Service - Implements use case
- * Single Responsibility: Orchestrate the price selection logic
- * Uses domain port (interface) for repository - Dependency Inversion
+ *
  */
 @Service
 @RequiredArgsConstructor

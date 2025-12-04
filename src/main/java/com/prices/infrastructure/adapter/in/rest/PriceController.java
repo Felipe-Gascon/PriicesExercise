@@ -22,7 +22,6 @@ import java.time.LocalDateTime;
 
 /**
  * REST Controller - Input Adapter
- * Follows REST principles with proper HTTP methods and status codes
  */
 @RestController
 @RequestMapping("/api/v1/prices")

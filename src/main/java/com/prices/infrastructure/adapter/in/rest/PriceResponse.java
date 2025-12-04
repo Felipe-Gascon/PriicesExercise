@@ -12,7 +12,7 @@ import java.time.LocalDateTime;
 
 /**
  * REST Response DTO
- * Represents the output of the API
+ *
  */
 @Data
 @Builder

@@ -6,10 +6,7 @@ import lombok.Value;
 import java.math.BigDecimal;
 import java.time.LocalDateTime;
 
-/**
- * Price domain entity - Core business model
- * Immutable value object representing a price rule
- */
+
 @Value
 @Builder
 public class Price {

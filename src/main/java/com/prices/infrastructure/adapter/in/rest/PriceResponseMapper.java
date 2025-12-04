@@ -5,7 +5,6 @@ import org.springframework.stereotype.Component;
 
 /**
  * Mapper from domain to REST response
- * Single Responsibility: Transform domain to DTO
  */
 @Component
 public class PriceResponseMapper {

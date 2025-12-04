@@ -6,7 +6,6 @@ import java.time.LocalDateTime;
 
 /**
  * Query object for GetApplicablePriceUseCase
- * Encapsulates input parameters following CQS pattern
  */
 @Value
 public class GetApplicablePriceQuery {

@@ -12,7 +12,7 @@ import java.util.List;
 public interface PriceRepository {
     /**
      * Find all prices applicable for given criteria
-     * The query should be optimized at database level
+     *
      */
     List<Price> findApplicablePrices(Long productId, Long brandId, LocalDateTime applicationDate);
 }
