@@ -1,0 +1,44 @@
+*.md
+# Compiled class files
+*.class
+target/
+*.jar
+*.war
+*.ear
+*.nar
+
+# Log files
+*.log
+
+# IDE
+.idea/
+*.iml
+*.iws
+*.ipr
+.vscode/
+.classpath
+.project
+.settings/
+bin/
+
+# OS
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# Maven
+.mvn/
+mvnw
+mvnw.cmd
+
+# Test coverage
+*.exec
+coverage/
+
+# H2 Database files
+*.db
+*.mv.db
+*.trace.db
+
