@@ -1,44 +1,78 @@
+# Markdown and Documentation
 *.md
+
 # Compiled class files
 *.class
-target/
 *.jar
 *.war
 *.ear
 *.nar
 
+# Build and target
+target/
+build/
+*.o
+*.so
+*.dylib
+
 # Log files
 *.log
+logs/
 
 # IDE
 .idea/
+.vscode/
 *.iml
 *.iws
 *.ipr
-.vscode/
-.classpath
-.project
-.settings/
-bin/
-
-# OS
-.DS_Store
-Thumbs.db
 *.swp
 *.swo
 *~
+.DS_Store
+Thumbs.db
 
 # Maven
 .mvn/
 mvnw
 mvnw.cmd
+.maven/
 
-# Test coverage
+# Test coverage and reports
 *.exec
 coverage/
+target/site/
 
 # H2 Database files
 *.db
 *.mv.db
 *.trace.db
+*.h2.db
+
+# OS specific
+.DS_Store
+Thumbs.db
+
+# Eclipse
+.classpath
+.project
+.settings/
+bin/
+
+# NetBeans
+nbproject/
+.nb-gradle/
+
+# Node (if applicable)
+node_modules/
+package-lock.json
+
+# Runtime
+*.pid
+*.seed
+*.pid.lock
+
+# Environment files
+.env
+.env.local
+.env.*.local
 
