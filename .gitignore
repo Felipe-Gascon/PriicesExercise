@@ -32,6 +32,8 @@ logs/
 Thumbs.db
 
 # Maven
+*.bat
+*.txt
 .mvn/
 mvnw
 mvnw.cmd
